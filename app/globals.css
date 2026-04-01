@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary-red: #D32F2F;
+  --color-primary-red-hover: #B71C1C;
+  --color-secondary-blue: #1976D2;
+  --color-dark-blue: #0D47A1;
+  --color-bg-main: #FFFFFF;
+  --color-bg-secondary: #F5F5F5;
+  --color-bg-dark: #333333;
+  --color-text-primary: #212121;
+  --color-text-secondary: #757575;
+  --color-text-inverted: #FFFFFF;
+  --color-border-card: #E0E0E0;
+  --font-sans: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg-main);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Radix Dialog overlay */
+[data-radix-dialog-overlay] {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 50;
+}
