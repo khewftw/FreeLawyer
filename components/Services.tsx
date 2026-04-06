@@ -8,6 +8,8 @@ import {
   Briefcase,
   Building2,
   Home,
+  ShieldCheck, // Новая иконка для военного права
+  ShoppingCart, // Новая иконка для маркетплейсов
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -34,6 +36,24 @@ const CATEGORIES: ServiceCategory[] = [
       "Расторжение брака и раздел имущества",
       "Определение места жительства детей",
       "Взыскание и оспаривание алиментов",
+    ],
+  },
+  {
+    icon: ShieldCheck, // Добавлено
+    title: "Военное право",
+    items: [
+      "Защита прав участников СВО и членов их семей",
+      "Выплаты, льготы и социальные гарантии",
+      "Оспаривание решений военно-врачебных комиссий",
+    ],
+  },
+  {
+    icon: ShoppingCart, // Добавлено
+    title: "Работа с маркетплейсами",
+    items: [
+      "Споры с Wildberries, Ozon и Яндекс Маркет",
+      "Разблокировка личных кабинетов и возврат товара",
+      "Обжалование необоснованных штрафов и удержаний",
     ],
   },
   {
@@ -108,13 +128,13 @@ export default function Services() {
                 y: -4,
                 boxShadow: "0 8px 24px rgba(0,0,0,0.1)",
               }}
-              className="bg-bg-main border border-border-card rounded p-5"
+              className="bg-bg-main border border-border-card rounded p-5 flex flex-col"
             >
               <div className="w-11 h-11 rounded-full bg-blue-50 flex items-center justify-center mb-4">
                 <cat.icon className="w-5 h-5 text-secondary-blue" />
               </div>
               <h3 className="font-bold text-lg text-dark-blue">{cat.title}</h3>
-              <ul className="mt-3 space-y-1.5">
+              <ul className="mt-3 space-y-1.5 flex-grow">
                 {cat.items.map((item) => (
                   <li
                     key={item}
@@ -127,7 +147,7 @@ export default function Services() {
               </ul>
               <a
                 href="#contacts"
-                className="mt-4 inline-flex items-center justify-center px-4 py-2 bg-primary-red text-text-inverted text-sm font-bold rounded hover:bg-primary-red-hover transition-colors"
+                className="mt-6 inline-flex items-center justify-center px-4 py-2 bg-primary-red text-text-inverted text-sm font-bold rounded hover:bg-primary-red-hover transition-colors w-fit"
               >
                 Консультация
               </a>

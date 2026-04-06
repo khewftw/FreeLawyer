@@ -40,7 +40,7 @@ export default function About() {
             id="about-heading"
             className="font-bold text-[28px] text-dark-blue"
           >
-            О нашем центре
+            Бесплатная юридическая помощь
           </h2>
           <p className="mt-4 text-[15px] text-text-secondary leading-relaxed">
             Федеральный центр юридической поддержки населения оказывает
@@ -76,7 +76,7 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-40px" }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="mt-12 bg-bg-dark rounded p-6 md:p-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-center"
+          className="mt-12 bg-dark-blue rounded p-6 md:p-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-center"
         >
           {[
             { value: "12 000+", label: "Выигранных дел" },

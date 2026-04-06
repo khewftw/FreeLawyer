@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { Phone, Menu, X, Scale } from "lucide-react";
+import { Phone, Menu, X } from "lucide-react"; // Убрали Scale
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image"; // Импортируем компонент Image
 
 const NAV_LINKS = [
   { href: "#about", label: "О центре" },
@@ -24,9 +25,15 @@ export default function Header() {
           className="flex items-center gap-3 shrink-0"
           aria-label="На главную"
         >
-          <div className="w-10 h-10 rounded bg-dark-blue flex items-center justify-center">
-            <Scale className="w-5 h-5 text-text-inverted" />
-          </div>
+          {/* Вставляем логотип вместо старого div с иконкой Scale */}
+          <Image
+            src="/moscow.png"
+            alt="Логотип Федерального центра"
+            width={40} 
+            height={40}
+            className="object-contain shrink-0"
+            priority // Рекомендуется для картинок в первом экране (LCP)
+          />
           <span className="hidden sm:block font-bold text-[15px] leading-tight text-dark-blue">
             Федеральный центр
             <br />

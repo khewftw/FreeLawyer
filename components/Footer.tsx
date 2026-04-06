@@ -1,4 +1,7 @@
-import { Phone, Mail, Scale } from "lucide-react";
+"use client";
+
+import { Phone, Mail } from "lucide-react";
+import Image from "next/image"; // Импортируем Image
 
 const SITEMAP = [
   {
@@ -28,9 +31,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded bg-dark-blue flex items-center justify-center border border-white/20">
-                <Scale className="w-5 h-5 text-text-inverted" />
-              </div>
+              {/* Заменили блок с иконкой на логотип */}
+              <Image
+                src="/moscow.png"
+                alt="Логотип Федерального центра"
+                width={40}
+                height={40}
+                className="rounded object-contain shrink-0"
+              />
               <span className="font-bold text-[15px] leading-tight">
                 Федеральный центр
                 <br />

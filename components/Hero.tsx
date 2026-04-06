@@ -15,10 +15,10 @@ export default function Hero() {
   return (
     <section
       className="relative overflow-hidden bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/hero-image.jpg')" }}
+      style={{ backgroundImage: "url('/hero1.jpeg')" }}
       aria-label="Главный баннер"
     >
-      <div className="absolute inset-0 bg-white/85" />
+      <div className="absolute inset-0 bg-white/90" />
 
       <div className="absolute top-0 left-0 z-10 w-full h-1.5 flex">
         <div className="flex-1 bg-bg-main" />
@@ -40,7 +40,7 @@ export default function Hero() {
               </span>
             </div>
 
-            <h1 className="font-bold text-[32px] md:text-[36px] leading-tight text-text-primary">
+            <h1 className="font-bold text-[32px] md:text-[36px] leading-tight text-dark-blue">
               Бесплатная{" "}
               <span className="text-primary-red">юридическая консультация</span>{" "}
               по всей России
@@ -52,17 +52,17 @@ export default function Hero() {
             </p>
 
             <div className="mt-6 flex items-center gap-3">
-              <Phone className="w-5 h-5 text-secondary-blue" />
+              <Phone className="w-7 h-7 text-primary-red" />
               <a
                 href="tel:+78001234567"
-                className="text-secondary-blue font-bold text-xl"
+                className="text-primary-red font-bold text-[32px]"
               >
                 8-800-123-45-67
               </a>
             </div>
 
             <p className="mt-2 text-xs text-text-secondary">
-              Бесплатная горячая линия — ежедневно с 9:00 до 21:00
+              Звонок бесплатный — ежедневно с 9:00 до 21:00
             </p>
           </motion.div>
 
@@ -87,7 +87,7 @@ export default function Hero() {
               ) : (
                 <>
                   <h2 className="font-bold text-xl text-dark-blue mb-1">
-                    Получите бесплатную консультацию
+                    Получите бесплатную юридическую помощь
                   </h2>
                   <p className="text-sm text-text-secondary mb-5">
                     Опишите вашу ситуацию — мы подберём специалиста
