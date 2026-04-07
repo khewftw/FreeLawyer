@@ -52,18 +52,18 @@ export default function Footer() {
             </p>
             <div className="mt-4 flex flex-col gap-2">
               <a
-                href="tel:+78001234567"
+                href="tel:+79085872787"
                 className="inline-flex items-center gap-2 text-sm text-text-inverted/80 hover:text-text-inverted transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                8-800-123-45-67
+                8 908 587 27 87
               </a>
               <a
-                href="mailto:info@yurcenter.ru"
+                href="mailto:ufo-centr74@yandex.ru"
                 className="inline-flex items-center gap-2 text-sm text-text-inverted/80 hover:text-text-inverted transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                info@yurcenter.ru
+                ufo-centr74@yandex.ru
               </a>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function Footer() {
               поддержки населения. Все права защищены.
             </p>
             <p className="text-xs text-text-inverted/50">
-              ИНН 7704123456 · ОГРН 1234567890123
+              ИНН 7460072945 · КПП 746001001 · ОГРН 1257400029468
             </p>
           </div>
           <p className="mt-3 text-[11px] text-text-inverted/40 leading-relaxed max-w-3xl">

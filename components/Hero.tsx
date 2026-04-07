@@ -54,10 +54,10 @@ export default function Hero() {
             <div className="mt-6 flex items-center gap-3">
               <Phone className="w-7 h-7 text-primary-red" />
               <a
-                href="tel:+78001234567"
+                href="tel:+79085872787"
                 className="text-primary-red font-bold text-[32px]"
               >
-                8-800-123-45-67
+                8 908 587 27 87
               </a>
             </div>
 

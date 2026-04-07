@@ -43,7 +43,7 @@ export default function Contacts() {
                 <div>
                   <p className="font-bold text-sm text-text-primary">Адрес</p>
                   <p className="text-sm text-text-secondary">
-                    г. Москва, ул. Большая Якиманка, д. 35, стр. 1, оф. 412
+                  г.Челябинск, пр-кт Победы, д. 160, 3й этаж, офис 341б
                   </p>
                 </div>
               </div>
@@ -54,10 +54,10 @@ export default function Contacts() {
                     Горячая линия
                   </p>
                   <a
-                    href="tel:+78001234567"
+                    href="tel:+79085872787"
                     className="text-sm text-secondary-blue font-medium"
                   >
-                    8-800-123-45-67
+                    8 908 587 27 87
                   </a>
                   <span className="text-xs text-text-secondary ml-2">
                     (бесплатно)
@@ -69,10 +69,10 @@ export default function Contacts() {
                 <div>
                   <p className="font-bold text-sm text-text-primary">Email</p>
                   <a
-                    href="mailto:info@yurcenter.ru"
+                    href="mailto:ufo-centr74@yandex.ru"
                     className="text-sm text-secondary-blue font-medium"
                   >
-                    info@yurcenter.ru
+                    ufo-centr74@yandex.ru
                   </a>
                 </div>
               </div>
@@ -103,7 +103,7 @@ export default function Contacts() {
                   Интерактивная карта
                 </p>
                 <p className="text-xs text-text-secondary mt-1">
-                  м. Октябрьская, 5 мин. пешком
+                  г. Челябинск, пр-кт Победы, 160, 3й этаж, офис 341б
                 </p>
               </div>
             </div>

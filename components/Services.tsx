@@ -8,8 +8,10 @@ import {
   Briefcase,
   Building2,
   Home,
-  ShieldCheck, // Новая иконка для военного права
-  ShoppingCart, // Новая иконка для маркетплейсов
+  ShieldCheck,
+  ShoppingCart,
+  Banknote, // Иконка для банкротства
+  Car,      // Иконка для автоюриста
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -39,21 +41,39 @@ const CATEGORIES: ServiceCategory[] = [
     ],
   },
   {
-    icon: ShieldCheck, // Добавлено
+    icon: Banknote,
+    title: "Банкротство физлиц",
+    items: [
+      "Полное списание долгов и кредитов",
+      "Защита от коллекторов и сохранение имущества",
+      "Представительство в арбитражном суде",
+    ],
+  },
+  {
+    icon: Car,
+    title: "Автоюрист",
+    items: [
+      "Споры со страховыми (ОСАГО/КАСКО)",
+      "Возврат прав и оспаривание штрафов ГИБДД",
+      "Независимая экспертиза и помощь при ДТП",
+    ],
+  },
+  {
+    icon: ShieldCheck,
     title: "Военное право",
     items: [
-      "Защита прав участников СВО и членов их семей",
+      "Защита прав участников СВО и их семей",
       "Выплаты, льготы и социальные гарантии",
       "Оспаривание решений военно-врачебных комиссий",
     ],
   },
   {
-    icon: ShoppingCart, // Добавлено
+    icon: ShoppingCart,
     title: "Работа с маркетплейсами",
     items: [
       "Споры с Wildberries, Ozon и Яндекс Маркет",
-      "Разблокировка личных кабинетов и возврат товара",
-      "Обжалование необоснованных штрафов и удержаний",
+      "Взыскание компенсации за потерю/порчу товара",
+      "Обжалование необоснованных штрафов",
     ],
   },
   {
@@ -78,8 +98,8 @@ const CATEGORIES: ServiceCategory[] = [
     icon: Building2,
     title: "Корпоративное право",
     items: [
-      "Регистрация и ликвидация юрлиц",
-      "Корпоративные споры и сделки M&A",
+      "Взыскание дебиторской задолженности",
+      "Корпоративные споры",
       "Защита интеллектуальной собственности",
     ],
   },
@@ -128,7 +148,7 @@ export default function Services() {
                 y: -4,
                 boxShadow: "0 8px 24px rgba(0,0,0,0.1)",
               }}
-              className="bg-bg-main border border-border-card rounded p-5 flex flex-col"
+              className="bg-bg-main border border-border-card rounded p-5 flex flex-col transition-shadow"
             >
               <div className="w-11 h-11 rounded-full bg-blue-50 flex items-center justify-center mb-4">
                 <cat.icon className="w-5 h-5 text-secondary-blue" />

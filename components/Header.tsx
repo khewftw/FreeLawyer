@@ -58,12 +58,12 @@ export default function Header() {
 
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="tel:+78001234567"
+            href="tel:+79085872787"
             className="flex items-center gap-2 text-secondary-blue font-bold text-[15px]"
-            aria-label="Позвонить: 8-800-123-45-67"
+            aria-label="Позвонить: 8 908 587 27 87"
           >
             <Phone className="w-4 h-4" />
-            8-800-123-45-67
+            8 908 587 27 87
           </a>
           <a
             href="#contacts"

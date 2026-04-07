@@ -63,13 +63,13 @@ export default function Conclusion() {
           </div>
           
           <a
-            href="tel:+78001234567"
+            href="tel:+79085872787"
             className="text-primary-red font-bold text-[32px] xs:text-[40px] sm:text-[52px] md:text-[64px] leading-none block my-4 transition-transform hover:scale-105"
           >
-            8 (800) 123-45-67
+            8 (908) 587 27 87
           </a>
           
-          <p className="text-[11px] sm:text-xs text-text-secondary opacity-80">
+          <p className="text-[16px] sm:text-xs text-text-secondary opacity-80">
             Звонок по России бесплатный, ежедневно 9:00 – 21:00
           </p>
         </motion.div>
