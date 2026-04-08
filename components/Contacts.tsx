@@ -92,20 +92,16 @@ export default function Contacts() {
               </div>
             </div>
 
-            <div
-              className="mt-8 rounded border border-border-card bg-bg-secondary h-56 flex items-center justify-center"
-              aria-label="Карта расположения офиса"
-              role="img"
-            >
-              <div className="text-center">
-                <MapPin className="w-8 h-8 text-text-secondary mx-auto mb-2" />
-                <p className="text-sm text-text-secondary">
-                  Интерактивная карта
-                </p>
-                <p className="text-xs text-text-secondary mt-1">
-                  г. Челябинск, пр-кт Победы, 160, 3й этаж, офис 341б
-                </p>
-              </div>
+            <div className="mt-8 overflow-hidden rounded border border-border-card bg-bg-secondary">
+              <iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A325de0c04f4bdf298af23341903aa102df2373f090c2b24795c5e1aed7cc041e&amp;source=constructor"
+                width={560}
+                height={240}
+                className="h-[240px] w-full max-w-[560px] border-0"
+                title="Карта: офис в Челябинске"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
             </div>
           </motion.div>
 
@@ -133,7 +129,7 @@ export default function Contacts() {
                   <h3 className="font-bold text-lg text-dark-blue mb-1">
                     Запишитесь на консультацию
                   </h3>
-                  <p className="text-sm text-text-secondary mb-5">
+                  <p className="text-base text-text-secondary mb-5">
                     Опишите вашу ситуацию — мы подберём подходящего специалиста
                   </p>
                   <form onSubmit={handleSubmit} className="flex flex-col gap-3">

@@ -9,7 +9,7 @@ const NAV_LINKS = [
   { href: "#about", label: "О центре" },
   { href: "#services", label: "Услуги" },
   { href: "#experts", label: "Специалисты" },
-  { href: "#timeline", label: "О нас" },
+  /* { href: "#timeline", label: "О нас" }, */
   { href: "#gallery", label: "Галерея" },
   { href: "#contacts", label: "Контакты" },
 ];

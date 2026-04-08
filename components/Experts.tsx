@@ -145,7 +145,7 @@ function ExpertCard({
       <h3 className="font-bold text-lg text-dark-blue text-center group-hover:text-secondary-blue transition-colors">
         {expert.name}
       </h3>
-      <p className="text-xs text-secondary-blue text-center mt-0.5 font-medium">
+      <p className="text-sm text-secondary-blue text-center mt-0.5 font-medium">
         {expert.role}
       </p>
       <div className="flex items-center justify-center gap-1.5 mt-2">
@@ -174,7 +174,7 @@ export default function Experts() {
         <motion.h2 className="font-bold text-[28px] text-dark-blue text-center mb-3">
           Наши специалисты
         </motion.h2>
-        <p className="text-center text-sm text-text-secondary mb-10 max-w-xl mx-auto">
+        <p className="text-center text-base text-text-secondary mb-10 max-w-xl mx-auto">
           Нажмите на карточку, чтобы ознакомиться с полной биографией юриста
         </p>
 
@@ -211,10 +211,10 @@ export default function Experts() {
                     <Dialog.Title className="font-bold text-2xl text-dark-blue pr-8">
                       {selected.name}
                     </Dialog.Title>
-                    <p className="text-sm text-secondary-blue font-medium mt-1">
+                    <p className="text-base text-secondary-blue font-medium mt-1">
                       {selected.role}
                     </p>
-                    <p className="text-xs text-text-secondary mt-1">
+                    <p className="text-sm text-text-secondary mt-1">
                       {selected.experience}
                     </p>
                   </div>

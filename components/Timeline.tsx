@@ -86,7 +86,7 @@ export default function Timeline() {
                         <h3 className="font-bold text-lg text-dark-blue">
                           {m.title}
                         </h3>
-                        <p className="mt-1 text-sm text-text-secondary leading-relaxed">
+                        <p className="mt-1 text-base text-text-secondary leading-relaxed">
                           {m.text}
                         </p>
                       </div>
@@ -102,7 +102,7 @@ export default function Timeline() {
                         <h3 className="font-bold text-lg text-dark-blue">
                           {m.title}
                         </h3>
-                        <p className="mt-1 text-sm text-text-secondary leading-relaxed">
+                        <p className="mt-1 text-base text-text-secondary leading-relaxed">
                           {m.text}
                         </p>
                       </div>

@@ -18,6 +18,8 @@ export default function Home() {
         <About />
         <Services />
         <Experts />
+        {/* <Timeline /> */}
+        {/* <Gallery /> */}
         <Conclusion />
         <Contacts />
       </main>

@@ -42,7 +42,7 @@ export default function About() {
           >
             Бесплатная юридическая помощь
           </h2>
-          <p className="mt-4 text-[15px] text-text-secondary leading-relaxed">
+          <p className="mt-4 text-base text-text-secondary leading-relaxed">
             Федеральный центр юридической поддержки населения оказывает
             квалифицированную правовую помощь гражданам по всей территории
             Российской Федерации. Мы помогаем разобраться в сложных правовых
@@ -64,7 +64,7 @@ export default function About() {
                 <feat.icon className="w-6 h-6 text-secondary-blue" />
               </div>
               <h3 className="font-bold text-lg text-dark-blue">{feat.title}</h3>
-              <p className="mt-2 text-sm text-text-secondary leading-relaxed">
+              <p className="mt-2 text-base text-text-secondary leading-relaxed">
                 {feat.text}
               </p>
             </motion.article>

@@ -98,7 +98,7 @@ export default function Gallery() {
         >
           Галерея
         </motion.h2>
-        <p className="text-center text-sm text-text-secondary mb-10 max-w-xl mx-auto">
+        <p className="text-center text-base text-text-secondary mb-10 max-w-xl mx-auto">
           Наш офис, рабочий процесс и корпоративная жизнь центра
         </p>
 

@@ -45,7 +45,7 @@ export default function Hero() {
               <span className="text-primary-red">юридическая консультация</span>{" "}
               по всей России
             </h1>
-            <p className="mt-4 text-[15px] md:text-base text-text-secondary leading-relaxed max-w-lg">
+            <p className="mt-4 text-base md:text-lg text-text-secondary leading-relaxed max-w-lg">
               Защитим ваши права в любой правовой ситуации. Опытные адвокаты и
               юристы по гражданскому, семейному, трудовому и уголовному праву.
               Первичная консультация — бесплатно.
@@ -89,7 +89,7 @@ export default function Hero() {
                   <h2 className="font-bold text-xl text-dark-blue mb-1">
                     Получите бесплатную юридическую помощь
                   </h2>
-                  <p className="text-sm text-text-secondary mb-5">
+                  <p className="text-base text-text-secondary mb-5">
                     Опишите вашу ситуацию — мы подберём специалиста
                   </p>
                   <form onSubmit={handleSubmit} className="flex flex-col gap-3">

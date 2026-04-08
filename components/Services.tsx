@@ -132,7 +132,7 @@ export default function Services() {
         >
           Направления юридической помощи
         </motion.h2>
-        <p className="text-center text-sm text-text-secondary mb-10 max-w-xl mx-auto">
+        <p className="text-center text-base text-text-secondary mb-10 max-w-xl mx-auto">
           Оказываем полный спектр правовых услуг для граждан и бизнеса
         </p>
 
@@ -148,7 +148,11 @@ export default function Services() {
                 y: -4,
                 boxShadow: "0 8px 24px rgba(0,0,0,0.1)",
               }}
-              className="bg-bg-main border border-border-card rounded p-5 flex flex-col transition-shadow"
+              className={`bg-bg-main border border-border-card rounded p-5 flex flex-col transition-shadow ${
+                i === CATEGORIES.length - 1 && CATEGORIES.length === 10
+                  ? "lg:col-start-2"
+                  : ""
+              }`}
             >
               <div className="w-11 h-11 rounded-full bg-blue-50 flex items-center justify-center mb-4">
                 <cat.icon className="w-5 h-5 text-secondary-blue" />

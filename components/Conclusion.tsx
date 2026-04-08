@@ -23,7 +23,7 @@ export default function Conclusion() {
           >
             Ваше право — наша ответственность
           </h2>
-          <p className="mt-4 text-sm sm:text-[15px] text-text-secondary leading-relaxed">
+          <p className="mt-4 text-base sm:text-lg text-text-secondary leading-relaxed">
             Не откладывайте решение юридических вопросов. Чем раньше вы
             обратитесь за помощью, тем выше шансы на успешный исход дела. Наши
             специалисты готовы приступить к работе прямо сейчас — первичная
@@ -55,7 +55,7 @@ export default function Conclusion() {
           className="mt-12 sm:mt-16 text-center"
         >
           {/* Контейнер для текста над номером: добавил max-w и mx-auto для лучшего переноса */}
-          <div className="text-sm text-text-secondary flex flex-col sm:flex-row items-center justify-center gap-2 mb-2 max-w-[280px] sm:max-w-none mx-auto">
+          <div className="text-base text-text-secondary flex flex-col sm:flex-row items-center justify-center gap-2 mb-2 max-w-[280px] sm:max-w-none mx-auto">
             <Phone className="w-4 h-4 shrink-0 text-primary-red" />
             <span className="leading-tight">
               Остались вопросы? Бесплатная юридическая помощь
@@ -69,7 +69,7 @@ export default function Conclusion() {
             8 (908) 587 27 87
           </a>
           
-          <p className="text-[16px] sm:text-xs text-text-secondary opacity-80">
+          <p className="text-lg sm:text-sm text-text-secondary opacity-80">
             Звонок по России бесплатный, ежедневно 9:00 – 21:00
           </p>
         </motion.div>
