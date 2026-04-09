@@ -10,7 +10,8 @@ const SITEMAP = [
       { href: "#about", label: "О центре" },
       { href: "#services", label: "Услуги" },
       { href: "#experts", label: "Специалисты" },
-      { href: "#timeline", label: "О нас" },
+      /*{ href: "#timeline", label: "О нас" },
+      */
     ],
   },
   {
